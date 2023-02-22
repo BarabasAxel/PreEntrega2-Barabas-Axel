@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--LO HICE SIN CSS PORQUE NO LLEGABA CON EL TIEMPO-->
+    <header class="header">
+        <a href="/index.html" class="logo"><span>Logo</span></a>
+  
+        <ul class="navbar">
+          <li><a href="/index.html">Inicio</a><span>|</span></li>
+          <li><a href="/pages/tienda.html">Tienda</a><span>|</span></li>
+          <li><a href="/pages/quienes-somos.html">Quienes Somos</a><span>|</span></li>
+          <li><a href="/pages/ayuda.html">Ayuda</a></li>
+        </ul>
+  
+        <div class="main">
+          <a href="/pages/carrito.html"><img src="../CSS/imagendetesteo.jpg" height="10px" /></a>
+        </div>
+    </header>
+
+    <section class="head">
+        <div class="inicio">
+          <img src="../CSS/imagendetesteo.jpg" height="400"/>
+        </div>
+
+        <div>
+            <h2>ELEGI EL MODELO</h2>
+
+            <img src="../CSS/imagendetesteo.jpg" height="100">
+            <form action="/pages/personalizado.html">
+              <button type="submit">Personalizado</button>
+            </form>
+
+            <img src="../CSS/imagendetesteo.jpg" height="100">
+            <form action="/pages/NO-personalizado.html">
+              <button type="submit">No Personalizado</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Las redes sociales no redirigen a ningun lugar-->
+    <footer class="footer">
+        <div class="grupo-1">
+          <div class="box">
+            <h2>SIGUENOS</h2>
+            <div class="red-social">
+              <!-- Los &nbsp; son espacios en blanco-->
+              <a href="#" class="fa fa-facebook"><span>&nbsp;Facebook</span></a>
+              <a href="#" class="fa fa-instagram"><span>&nbsp;Instagram</span></a>
+              <a href="#" class="fa fa-twitter"><span>&nbsp;Twitter</span></a>
+            </div>
+          </div>
+            <!--Aca no sabia hacia adonde mandar el correo entonces puse /formulario para completar la propiedad de action-->
+          <div class="box">
+            <h2>Suscribete para noticias y nuevos lanzamientos</h2>
+            <!-- Aca no pude mover el form con css-->
+              <form action="/formulario" method="post">
+                <input type="email" id="correo" name="correo" placeholder="Ingresa tu correo">
+                <button type="submit">Suscribete</button>
+              </form>
+  
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Boostrap</title>
+</head>
+    <body>
+        <header>
+            <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+                <div class="container-fluid">
+                    
+                    <!-- logo -->
+                    <a class="navbar-brand" href="/index.html">
+                    <span class="text-warning">LOGO</span>
+                    </a>
+                    
+                    <!-- boton desplegable -->
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+        
+                    <!-- elementos del navbar -->
+                    <div class="navbar-collapse collapse" id="menu">
+                        <ul class="navbar-nav justify-content-center flex-grow-1 pe-3">
+                            <li class="navbar-item">
+                                <a class="nav-link active" href="/index.html">INICIO</a>
+                            </li>
+                            <li class="navbar-item">
+                                <a class="nav-link active" href="tienda.html">TIENDA</a>
+                            </li>
+                            <li class="navbar-item">
+                                <a class="nav-link active" href="quienes-somos.html">QUIENES SOMOS</a>
+                            </li>
+                            <li class="navbar-item">
+                                <a class="nav-link active" href="ayuda.html">AYUDA</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!--Carrito -->
+                    <!--Aca queria hacer desaparecer el carrito en la navbar para movil pero no pude -->
+                    <a class="navbar-brand d-md-inline-block" href="carrito.html">
+                        <span class="text-warning">Carrito</span>
+                    </a>
+            
+                </div>  
+            </nav>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+        </header>
+        <!-- IMAGEN PRINCIPAL -->
+        <!-- no pude acomodar las imagenes con boostrap, no me dejaba editarlas en el css no se porque -->
+        <main class="text-center mt-5">
+          <section class="galeria">
+            <h1>GALERIA</h1>
+
+            <div class="conteiner-lg">
+              <div class="row gy-4 row-cols-1 row-cols-sm-2 row-cols-md-3">
+                <div class="col">
+                  <img src="/images/galeria 1.avif" alt="imagenes de la galeria" class="galeria-item">
+                </div>
+                <div class="col">
+                  <img src="/images/galeria 2.avif" alt="imagenes de la galeria" class="galeria-item">
+                </div>
+                <div class="col">
+                  <img src="/images/galeria 3.png" alt="imagenes de la galeria" class="galeria-item">
+                </div>
+                <div class="col">
+                  <img src="/images/galeria 4.jfif" alt="imagenes de la galeria" class="galeria-item">
+                <div>
+                <div class="col">
+                  <img src="/images/galeria 5.jpg" alt="imagenes de la galeria" class="galeria-item"> 
+                </div>
+                <div class="col">
+                  <img src="/images/galeria 6.jfif" alt="imagenes de la galeria" class="galeria-item">
+                </div>
+                <div class="col">
+                  <img src="/images/galeria 7.jpg" alt="imagenes de la galeria" class="galeria-item">
+                </div>
+                <div class="col">
+                  <img src="/images/galeria 8.avif" alt="imagenes de la galeria" class="galeria-item">
+                </div>
+                <div class="col">
+                  <img src="/images/galeria 9.jpg" alt="imagenes de la galeria" class="galeria-item">
+                </div>
+            
+            </div>
+            </div>
+
+            <div class="mt-5">
+              <a href="tienda.html" class="btn btn-outline-warning">COMPRAR</a>
+            </div>
+          </section>
+        </main>
+
+        <!-- FOOTER, me falto los iconos de las redes sociales que lo agregaba con css -->
+        <footer class="bg-dark text-center text-white mt-5">
+            <div class="container p-4">
+              <div class="row">
+                <div class="col-lg-6 col-md-12">
+                  <div class="mb-md-4">
+                    <a href="#" class="fa fa-facebook text-decoration-none"><span>&nbsp;Facebook</span></a>
+                  </div>
+                  <div class="mb-md-4">
+                    <a href="#" class="fa fa-instagram text-decoration-none"><span>&nbsp;Instagram</span></a>
+                  </div>
+                  <div class="mb-md-4">
+                    <a href="#" class="fa fa-twitter text-decoration-none"><span>&nbsp;Twitter</span></a>
+                  </div>
+                </div>  
+
+                <div class="col-lg-6 col-md-12">
+                  <div class="col-md-5 col-12">
+                    <div class="form-outline mb-4">
+                      <input type="email" id="form5Example27" class="form-control" />
+                      <label class="form-label" for="form5Example27">CORREO ELECTRONICO</label>
+                      <button type="submit" class="btn btn-outline-warning mb-4">SUBSCRIBETE</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </footer>
+    </body>
+</html>

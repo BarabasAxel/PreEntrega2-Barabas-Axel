@@ -1,0 +1,1 @@
+La mayoria de las cosas que no pude hacer estan comentadas en el codigo
